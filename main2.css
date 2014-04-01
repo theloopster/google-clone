@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: arial;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+/*{
+	outline: 1px solid orange;
+}*/
+body, html{
+	height:100%;
+}
+.wrapper{
+	
+	min-height:100%;
+	height:auto!important;
+	height:100%;
+	margin: 0px 0px -40px 0px;
+	
+	
+}
+.nav{
+	height:50px;
+	text-align:right;
+	margin-right:20px;
+	height:auto;
+
+}
+.nav a, .nav img, .nav span{
+	margin-left:10px;
+	text-decoration:none;
+	color:black;
+}
+
+.logo{
+	margin-top:100px;
+	height:180px;
+	text-align:center;
+
+}
+#logo{
+	height:95px;
+	width:270px;
+	vertical-align: bottom;
+	margin-top:85px;
+}
+.searchform{
+	text-align:center;
+
+}
+input{
+	width:500px;
+	height:30px;
+	background: url("images/microphone.png") no-repeat right;
+	background-size: 25px 25px;
+}
+
+.buttons{
+	margin-top:20px;
+	height:60px;
+	text-align:center;
+	padding:0px 0px 40px 0px;
+}
+button{
+	height:30px;
+	font-size:.9em;
+	border-radius:5px;
+	background-color: rgb(230,230,230);
+}
+footer{
+	height:40px;
+	background: rgb(230,230,230);
+	font-size:.8em;
+	color:black;
+
+}
+.leftbottom{
+	float:left;
+	width:250px;
+	margin:10px 0px 0px 30px;
+}
+ footer span{
+	margin-left:18px;
+}
+.rightbottom{
+	float:right;
+	width:300px;
+	margin:10px 0px 40px 30px;
+}
